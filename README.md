@@ -1,2 +1,2 @@
 # todoAppFirebaseBackend
-<a target="_blank" href="https://compassionate-jones-41283d.netlify.app/home">see live</a>
+<a target="_blank" href="https://nostalgic-turing-f1a172.netlify.app/">see live</a>
