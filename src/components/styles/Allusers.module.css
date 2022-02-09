@@ -1,0 +1,86 @@
+.middlebody {
+	overflow-y: auto;
+	height: 90vh;
+	width: 100%;
+	background: #83a4d4; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#b6fbff,
+		#83a4d4
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#b6fbff,
+		#83a4d4
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:flex-start;
+}
+.inputElement {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+	height: 10vh;
+}
+.inputElement input {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-radius: 10px;
+	border: none;
+	margin-left: 15vw;
+	font-size:2.5rem;
+}
+.card {
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	width: 30rem;
+	height: 15rem;
+	margin: 1rem;
+	background: #614385; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#516395,
+		#614385
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#516395,
+		#614385
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card h1 {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+}
+.card button {
+	width: 100%;
+	height: 3rem;
+	border: none;
+	background: #fff;
+	color: #000;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 2rem;
+}
+.card button:hover {
+	background: #000;
+	color: #fff;
+}
+.card a{
+	text-decoration: none;
+}

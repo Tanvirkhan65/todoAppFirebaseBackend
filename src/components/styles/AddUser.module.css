@@ -1,0 +1,41 @@
+.mainBody {
+	height: 90vh;
+	width: 100vw;
+	background-color: #b2bec3;
+}
+.mainBody h1 {
+	font-size: 3em;
+	color: #d63031;
+	text-align: center;
+}
+.mainBody form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mainBody input[type] {
+	height: 3rem;
+	width: 40rem;
+	font-size: 2.5rem;
+	color:#0984e3;
+	text-align: center;
+	border: 2px solid #2d3436;
+	border-radius: 5px;
+	padding: 0.5rem 0px;
+}
+.mainBody button {
+    height: 3rem;
+    width: 20rem;
+    margin-top: 1rem;
+    background-color:#00cec9;
+    color: #6c5ce7;
+    font-size: 2rem;
+    border: 2px solid #6c5ce7;
+    font-wight: 900;
+    border-radius: 5px;
+}
+.mainBody button:hover {
+    background-color: #6c5ce7;
+    color: #00cec9;
+}
